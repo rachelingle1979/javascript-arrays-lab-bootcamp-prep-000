@@ -30,6 +30,11 @@ function appendKitten(name){
   return newKitten;
 }
 
+function prependKitten(name){
+  var newKitten = [name, ...kittens];
+  return newKitten;
+}
+
 
 
 
